@@ -14,12 +14,13 @@ void main()
 	cout << endl;
 	
 	
-	int number;	
+	int number;
 	cout << "Количество сдвигов: ";
 	cin >> number;
 	for (int i = 0; i < number; i++)
 	{
-		int b = arr[0];//буфер
+		int b = arr[0]; //буфер
+
 		for (int i = 0; i < n; i++)
 		{
 			arr[i] = arr[i + 1];
@@ -33,4 +34,9 @@ void main()
 		cout << arr[i] << "\t";
 	}
 	cout << endl;
+
+
+
+
+
 }
