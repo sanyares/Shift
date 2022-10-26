@@ -13,7 +13,6 @@ void main()
 	}
 	cout << endl;
 
-
 	int number;
 	cout << "Количество сдвигов: ";
 	cin >> number;
