@@ -14,12 +14,12 @@ void main()
 	cout << endl;
 	
 	
-	int numbershifts;	
+	int number;	
 	cout << "Количество сдвигов: ";
-	cin >> numbershifts;
-	for (int i = 0; i < numbershifts; i++)
+	cin >> number;
+	for (int i = 0; i < number; i++)
 	{
-		int b = arr[0];
+		int b = arr[0];//буфер
 		for (int i = 0; i < n; i++)
 		{
 			arr[i] = arr[i + 1];
