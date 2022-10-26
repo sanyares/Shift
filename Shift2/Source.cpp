@@ -1,11 +1,11 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void main()
 {
 	setlocale(LC_ALL, "");
 	const int n = 10;
-	int arr[n] = { 1,2,3,4,5,6,7,8,9,10 };//Вывод массива
+	int arr[n] = { 1,2,3,4,5,6,7,8,9,10 };//Р’С‹РІРѕРґ РјР°СЃСЃРёРІР°
 
 	for (int i = 0; i < n; i++)
 	{
@@ -15,11 +15,11 @@ void main()
 
 
 	int number;
-	cout << "Количество сдвигов: ";
+	cout << "РљРѕР»РёС‡РµСЃС‚РІРѕ СЃРґРІРёРіРѕРІ: ";
 	cin >> number;
 	for (int i = 0; i < number; i++)
 	{
-		int b = arr[n - 1]; //буфер
+		int b = arr[n - 1]; //Р±СѓС„РµСЂ
 
 		for (int i = n - 1; i > 0; i--)
 		{
@@ -28,7 +28,7 @@ void main()
 		arr[0] = b;
 	}
 
-	//Вывод сдвинутого вправо массива на экран
+	//Р’С‹РІРѕРґ СЃРґРІРёРЅСѓС‚РѕРіРѕ РІРїСЂР°РІРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
